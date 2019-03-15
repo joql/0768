@@ -18,6 +18,7 @@
     <!-- ////////////////////////////////// -->
     <link rel="stylesheet" href="/static/home/css/app.css"/>
     <link rel="stylesheet" href="/static/home/css/bootstrap.css"/>
+    <link rel="stylesheet" href="/static/home/css/kkpager_blue.css"/>
     <!-- ////////////////////////////////// -->
     <!-- //        Favicon Files         // -->
     <!-- ////////////////////////////////// -->
@@ -25,8 +26,16 @@
 
 
     <script src="/static/home/js/jquery.min.js"></script>
+    <script src="/static/home/js/kkpager.min.js"></script>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-
+    <style>
+       #kkpager .totalText{
+           display: none;
+       }
+       #kkpager .goPageBox{
+           display: none;
+       }
+    </style>
 </head>
 <body>
 <section id="search">
@@ -60,7 +69,8 @@
                         <div class="input-group">
                             <input type="text" value="{$Think.get.key}" id="searchkey" autocomplete="off" placeholder="请输入企业名称,省份,经营范围" name="key" class="form-control input-lg">
                             <span class="input-group-btn">
-                                <input hidden id="order_type" name="order_type" value="4">
+                                <input hidden id="order_type" name="order_type" value="3">
+                                <input hidden id="pno" name="pno" value="1">
                                 <input id="V3_Search_bt" type="submit" class="btn-lg" value="查一下" >
                                 <input id="reset_bt" type="button" class="btn-lg" value="重置" style="
     /* background: #24c2a6; */
@@ -76,11 +86,11 @@
                     </form>
                     <section class="panel hidden-md" id="search-list" style="display: none;"></section>
                 </div>
-                <div class="col-md-10 col-md-offset-1">
+                <div class="col-md-12">
                     <div class="row">
-                        <div class="col-md-10 col-md-offset-1" style="width: 850px;">
+                        <div class="col-md-12" style="">
                             <p class="index-hot">
-                                <span id="hot_data">
+                                <span id="hot_data" style="height: auto;">
                                     {volist name="province" id="vo"}
                                     <a onclick="getlistbyprovince(this)" class="index-hot-company">{$vo.name}</a>
                                     {/volist}
@@ -94,7 +104,7 @@
     </div>
 
 </section>
-<div class="col-md-12" id="ajaxlist">
+<div class="col-md-8" id="ajaxlist" style="float: none;margin: 0 auto;">
     <section class="panel b-a n-s" id="searchlist" style="border-top: none;margin-bottom: 0px;">
         <table class="m_srchList">
             <thead>
@@ -117,19 +127,19 @@
             {if !empty($company)}
             {volist name="company" id="vo"}
             <tr>
-                <td width="100">
+                <td style="max-width: 100px;">
                     <span class="nstatus text-success-lt m-l-xs">{$vo.inc}</span>
                 </td>
-                <td>
+                <td style="min-width: 190px;">
                     <a href="/home/index/detail?id={$vo.id}" target="_blank" class="ma_h1">{$vo.name}</a>
                     <p class="m-t-xs">
                         <span class="m-l">{$vo.remark}</span>
                     </p>
                 </td>
-                <td width="100">
+                <td style="max-width: 100px;">
                     <span class="nstatus text-success-lt m-l-xs">{$vo.num}</span>
                 </td>
-                <td width="100">
+                <td style="max-width: 100px;">
                     <span class="nstatus text-success-lt m-l-xs">{$vo.price}</span>
                 </td>
             </tr>
@@ -138,6 +148,7 @@
             </tbody>
         </table>
     </section>
+    <div id="kkpager" style="float: right"></div>
 </div>
 
 </body>
@@ -154,5 +165,42 @@
     document.querySelector('#reset_bt').addEventListener('click', function () {
         location.href = '/';
     })
+
+
+    function getParameter(name) {
+        var reg = new RegExp("(^|&)"+ name +"=([^&]*)(&|$)");
+        var r = window.location.search.substr(1).match(reg);
+        if (r!=null) return unescape(r[2]); return null;
+    }
+
+    //init
+    $(function(){
+        var totalPage = {$page|default=0};
+        var totalRecords = {$total|default=0};
+        var pageNo = getParameter('pno');
+
+
+        kkpager.generPageHtml({
+            pno : pageNo,
+            //总页码
+            total : totalPage,
+            //总数据条数
+            totalRecords : totalRecords,
+            //链接前部
+            hrefFormer : '',
+            //链接尾部
+            hrefLatter : '',
+            getLink : function(n){
+                return true;
+            }
+            ,
+            mode : 'click',//默认值是 link，可选link或者click
+            click : function(n){
+                document.querySelector('#pno').value = n;
+                document.querySelector('#V3_Search_bt').click();
+             return false;
+            }
+        });
+    });
 </script>
 <!-- header end here -->

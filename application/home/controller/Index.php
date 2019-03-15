@@ -9,7 +9,10 @@ class Index extends Common{
     }
     public function index(){
         $province = \db('province')->select();
-        $order = input('get.order_type') ?: 4;
+        $order = input('get.order_type') ?: 3;
+        $page = input('get.pno') ?: 1;
+        $page_num = 20;
+        $limit = ($page - 1)*$page_num .' '.$page_num;
         $where = [];
 
         switch ($order){
@@ -45,14 +48,17 @@ class Index extends Common{
             ->alias('a')
             ->buildSql();
 
-        $list = (array)Db::table($querysql.' a')->where($where)->order($order)->select();
-        $inc =0;
+        $list = (array)Db::table($querysql.' a')->where($where)->order($order)->limit($limit)->select();
+        $total = (array)Db::table($querysql.' a')->where($where)->order($order)->select();
+        $inc = ($page -1)*$page_num;
         foreach ($list as &$v){
             $inc ++ ;
             $v['inc'] = $inc;
         }
         //var_dump($list);die;
         $this->assign('company', $list);
+        $this->assign('total', count($total));
+        $this->assign('page', ceil(count($total)/$page_num)));
         $this->assign('province', $province);
         return $this->fetch();
     }

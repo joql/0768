@@ -6337,7 +6337,7 @@ table.m_srchList tbody tr{background:white;}
 table.m_srchList tbody tr:hover{background:#fafafa;}
 table.m_srchList tbody tr:hover .ma_h1{color:#128BED;}
 table.m_srchList tr th{height:42px;font-size:14px;color:#555;text-align: left;padding-left:20px;background:#f9f9f9;}
-table.m_srchList tr td{text-align: left;padding-left: 10px;padding-right: 10px;color:#888;padding-top:20px;padding-bottom: 20px;}
+table.m_srchList tr td{text-align: left;padding-left: 10px;padding-right: 10px;color:#888;padding-top:10px;padding-bottom: 10px;}
 table.m_srchList tr td:nth-of-type(1){padding-left:20px;}
 table.m_srchList tr td.imgtd{padding-left:20px;}
 table.m_srchList tr td.checktd{padding-left: 10px;display: none;}
