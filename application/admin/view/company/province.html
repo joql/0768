@@ -1,0 +1,80 @@
+{include file="common/head"/}
+<div class="admin-main layui-anim layui-anim-upbit">
+    <fieldset class="layui-elem-field layui-field-title">
+        <legend>省份列表</legend>
+    </fieldset>
+    <table class="layui-table" id="list" lay-filter="list"></table>
+</div>
+{include file="common/foot"/}
+<script type="text/html" id="action">
+    <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">{:lang('del')}</a>
+</script>
+
+<script type="text/html" id="topBtn">
+    <button class="layui-btn layui-btn-sm" lay-event="add">{:lang('add')}</button>
+</script>
+<script>
+    layui.use(['table','form'], function() {
+        var table = layui.table, form=layui.form,$ = layui.jquery;
+        var tableIn = table.render({
+            elem: '#list',
+            url: '{:url("province")}',
+            method: 'post',
+            toolbar: '#topBtn',
+            autoSort: false,
+            page:true,
+            cols: [[
+                {field: 'id', title: 'ID', width:90, fixed: true,sort:true},
+                {field: 'name', title: '省份', width: 100},
+                {align: 'center', toolbar: '#action'}
+            ]]
+        });
+        //监听排序事件
+        table.on('sort(list)', function(obj){
+            table.reload('list', {
+                initSort: obj
+                ,where: {sort_by: obj.field,sort_order: obj.type}
+            });
+        });
+        //头工具栏事件
+        table.on('toolbar(list)', function(obj){
+            switch(obj.event){
+                case 'add':
+                    var index = layer.open({
+                        type: 2,
+                        content: '{:url("provinceadd")}',
+                        area: ['300px', '300px'],
+                        maxmin: true
+                    });
+                    layer.full(index);
+                    break;
+            }
+        });
+
+        table.on('tool(list)', function(obj) {
+            var data = obj.data;
+            var id = data.id;
+            if(obj.event === 'del'){
+                layer.confirm('你确定要删除该省份吗？', {icon: 3}, function (index) {
+                    $.post("{:url('provincedel')}",{id:data.id},function(res){
+                        if(res.code==1){
+                            layer.msg(res.msg,{time:1000,icon:1});
+                            tableIn.reload();
+                        }else{
+                            layer.msg(res.msg,{time:1000,icon:2});
+                        }
+                    });
+                    layer.close(index);
+                });
+            }else if(obj.event === 'edit'){
+                var index = layer.open({
+                    type: 2,
+                    content: '{:url("edit")}?id='+id,
+                    area: ['300px', '300px'],
+                    maxmin: true
+                });
+                layer.full(index);
+            }
+        });
+    })
+</script>

@@ -1,0 +1,60 @@
+{include file="common/head"/}
+<div class="admin-main layui-anim layui-anim-upbit" ng-app="hd" ng-controller="ctrl">
+    <fieldset class="layui-elem-field layui-field-title">
+        <legend>编辑</legend>
+    </fieldset>
+    <form class="layui-form layui-form-pane">
+        <div class="layui-form-item">
+            <label class="layui-form-label">数量</label>
+            <div class="layui-input-4">
+                <input type="number" name="num" value="{$info.num}" placeholder="输入数量" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">价格</label>
+            <div class="layui-input-4">
+                <input type="number" name="price" value="{$info.price}"  placeholder="输入价格" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">备注</label>
+            <div class="layui-input-4">
+                <input type="text" name="remark" value="{$info.remark}"  placeholder="输入备注" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-input-block">
+                <input type="hidden" name="id" value="{$info.id}">
+                <button type="button" class="layui-btn" lay-submit="" lay-filter="submit">{:lang('submit')}</button>
+            </div>
+        </div>
+    </form>
+</div>
+{include file="common/foot"/}
+<script src="/static/common/js/angular.min.js"></script>
+<script>
+    var m = angular.module('hd',[]);
+    m.controller('ctrl',['$scope',function($scope) {
+        layui.use(['form','upload'], function () {
+            var form = layui.form,upload = layui.upload,$= layui.jquery;
+            //普通上传
+            form.on('submit(submit)', function (data) {
+                loading =layer.load(1, {shade: [0.1,'#fff']});
+                // 提交到方法 默认为本身
+                //data.field.id = $scope.field.id;
+                $.post("edit", data.field, function (res) {
+                    layer.close(loading);
+                    if (res.code > 0) {
+                        layer.msg(res.msg, {time: 1000, icon: 1}, function () {
+                            layer.closeAll("iframe");
+                            //刷新父页面
+                            parent.location.reload();
+                        });
+                    } else {
+                        layer.msg(res.msg, {time: 1000, icon: 2});
+                    }
+                });
+            })
+        });
+    }]);
+</script>

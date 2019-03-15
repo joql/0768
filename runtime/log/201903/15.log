@@ -1,0 +1,1485 @@
+---------------------------------------------------------------
+[ 2019-03-15T16:57:01+08:00 ] 192.168.0.115 GET 0768.cc/admin/index/main.html
+[运行时间：0.271008s] [吞吐率：3.69req/s] [内存消耗：3,184.30kb] [文件加载：73]
+[ info ] [ LANG ] /www/wwwroot/0768.cc/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/0768.cc/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'skin=0; thinkphp_show_page_trace=0|0; Hm_lvt_3456bee468c83cc63fb5147f119f1075=1552549103; thinkphp_show_page_trace=0|0; PHPSESSID=609dj7po01ghcgfvm0q9cjg22u; skin=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://0768.cc/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '0768.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/0768.cc/application/admin/view/index/main.html [ array (
+  0 => 'config',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000333s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_field` [ RunTime:0.019588s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=1 ) ORDER BY `sort` [ RunTime:0.000379s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006182s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=2 ) ORDER BY `sort` [ RunTime:0.013732s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000467s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=3 ) ORDER BY `sort` [ RunTime:0.019255s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008847s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=4 ) ORDER BY `sort` [ RunTime:0.016425s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000595s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=5 ) ORDER BY `sort` [ RunTime:0.000818s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000311s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=6 ) ORDER BY `sort` [ RunTime:0.008166s ]
+[ sql ] [ SQL ] SELECT VERSION() AS ver [ RunTime:0.000395s ]
+---------------------------------------------------------------
+[ 2019-03-15T16:57:03+08:00 ] 192.168.0.115 GET 0768.cc/admin/company/index.html
+[运行时间：0.069301s] [吞吐率：14.43req/s] [内存消耗：3,352.23kb] [文件加载：76]
+[ info ] [ LANG ] /www/wwwroot/0768.cc/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/0768.cc/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'skin=0; thinkphp_show_page_trace=0|0; Hm_lvt_3456bee468c83cc63fb5147f119f1075=1552549103; thinkphp_show_page_trace=0|0; PHPSESSID=609dj7po01ghcgfvm0q9cjg22u; skin=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://0768.cc/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '0768.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/0768.cc/application/admin/view/company/index.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000577s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_field` [ RunTime:0.001332s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=1 ) ORDER BY `sort` [ RunTime:0.001204s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000486s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=2 ) ORDER BY `sort` [ RunTime:0.000539s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000457s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=3 ) ORDER BY `sort` [ RunTime:0.001648s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000558s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=4 ) ORDER BY `sort` [ RunTime:0.000659s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000797s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=5 ) ORDER BY `sort` [ RunTime:0.000848s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000422s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=6 ) ORDER BY `sort` [ RunTime:0.000482s ]
+---------------------------------------------------------------
+[ 2019-03-15T16:57:03+08:00 ] 192.168.0.115 POST 0768.cc/admin/company/index.html
+[运行时间：0.043647s] [吞吐率：22.91req/s] [内存消耗：3,505.67kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/0768.cc/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/0768.cc/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'skin=0; thinkphp_show_page_trace=0|0; Hm_lvt_3456bee468c83cc63fb5147f119f1075=1552549103; thinkphp_show_page_trace=0|0; PHPSESSID=609dj7po01ghcgfvm0q9cjg22u; skin=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://0768.cc/admin/company/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://0768.cc',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+  'host' => '0768.cc',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000570s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_field` [ RunTime:0.006072s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=1 ) ORDER BY `sort` [ RunTime:0.000564s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000271s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=2 ) ORDER BY `sort` [ RunTime:0.000376s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000202s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=3 ) ORDER BY `sort` [ RunTime:0.004888s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000639s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=4 ) ORDER BY `sort` [ RunTime:0.000656s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000463s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=5 ) ORDER BY `sort` [ RunTime:0.000800s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000450s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=6 ) ORDER BY `sort` [ RunTime:0.000477s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000516s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_company` [ RunTime:0.000676s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `clt_company` LIMIT 1 [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_company` ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.000422s ]
+---------------------------------------------------------------
+[ 2019-03-15T16:57:06+08:00 ] 192.168.0.115 GET 0768.cc/admin/company/add.html
+[运行时间：0.079327s] [吞吐率：12.61req/s] [内存消耗：3,504.17kb] [文件加载：78]
+[ info ] [ LANG ] /www/wwwroot/0768.cc/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/0768.cc/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'skin=0; thinkphp_show_page_trace=0|0; Hm_lvt_3456bee468c83cc63fb5147f119f1075=1552549103; thinkphp_show_page_trace=0|0; PHPSESSID=609dj7po01ghcgfvm0q9cjg22u; skin=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://0768.cc/admin/company/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '0768.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/0768.cc/application/admin/view/company/form.html [ array (
+  0 => 'province',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000806s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_field` [ RunTime:0.001548s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=1 ) ORDER BY `sort` [ RunTime:0.000725s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011616s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=2 ) ORDER BY `sort` [ RunTime:0.000652s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000464s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=3 ) ORDER BY `sort` [ RunTime:0.006648s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000752s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=4 ) ORDER BY `sort` [ RunTime:0.005943s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000525s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=5 ) ORDER BY `sort` [ RunTime:0.000562s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000801s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=6 ) ORDER BY `sort` [ RunTime:0.000568s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000544s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_province` [ RunTime:0.001119s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_province` [ RunTime:0.000687s ]
+[ error ] [8]未定义变量: title[/www/wwwroot/0768.cc/runtime/temp/2b4b4206b818cdaade354272f6de73e4.php:20]
+---------------------------------------------------------------
+[ 2019-03-15T16:57:25+08:00 ] 192.168.0.115 POST 0768.cc/admin/up_files/file.html
+[运行时间：0.075096s] [吞吐率：13.32req/s] [内存消耗：3,234.24kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/0768.cc/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/0768.cc/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_3456bee468c83cc63fb5147f119f1075=1552549103; thinkphp_show_page_trace=0|0; PHPSESSID=609dj7po01ghcgfvm0q9cjg22u; skin=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://0768.cc/admin/company/add.html',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary2XziGPTJtAW9xpV9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://0768.cc',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '452',
+  'connection' => 'keep-alive',
+  'host' => '0768.cc',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000500s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_field` [ RunTime:0.000690s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=1 ) ORDER BY `sort` [ RunTime:0.000694s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000487s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=2 ) ORDER BY `sort` [ RunTime:0.000552s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000393s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=3 ) ORDER BY `sort` [ RunTime:0.005845s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000529s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=4 ) ORDER BY `sort` [ RunTime:0.000583s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001466s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=5 ) ORDER BY `sort` [ RunTime:0.002411s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000410s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=6 ) ORDER BY `sort` [ RunTime:0.000433s ]
+---------------------------------------------------------------
+[ 2019-03-15T16:57:26+08:00 ] 192.168.0.115 POST 0768.cc/admin/company/add
+[运行时间：0.178005s] [吞吐率：5.62req/s] [内存消耗：3,362.20kb] [文件加载：72]
+[ info ] [ LANG ] /www/wwwroot/0768.cc/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/0768.cc/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'skin=0; thinkphp_show_page_trace=0|0; Hm_lvt_3456bee468c83cc63fb5147f119f1075=1552549103; thinkphp_show_page_trace=0|0; PHPSESSID=609dj7po01ghcgfvm0q9cjg22u; skin=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://0768.cc/admin/company/add.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://0768.cc',
+  'accept' => '*/*',
+  'content-length' => '75',
+  'connection' => 'keep-alive',
+  'host' => '0768.cc',
+)
+[ info ] [ PARAM ] array (
+  'companys' => '/uploads/20190315/9c23d988267e042046eecd114b357767.txt',
+  'file' => '',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016645s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_field` [ RunTime:0.000650s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=1 ) ORDER BY `sort` [ RunTime:0.000509s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000460s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=2 ) ORDER BY `sort` [ RunTime:0.000559s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000440s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=3 ) ORDER BY `sort` [ RunTime:0.000721s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000493s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=4 ) ORDER BY `sort` [ RunTime:0.000694s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001756s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=5 ) ORDER BY `sort` [ RunTime:0.000896s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000507s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=6 ) ORDER BY `sort` [ RunTime:0.000447s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004439s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_company` [ RunTime:0.000745s ]
+[ sql ] [ SQL ] INSERT INTO `clt_company` (`name` , `num` , `price` , `remark`) VALUES ( '北京大和恒粮油贸易股份有限公司',12333,333,'备注1' ) , ( '高碑店市大和环保锅炉有限公司',12333,3343,'备注12' ) , ( '江苏大和新材料有限公司',123331,3233,'备注13' ) , ( '亿明等待(天津)科技有限公司',123323,3233,'备注14' ) , ( '中兴通讯股份有限公司',123333,3313,'备注15' ) [ RunTime:0.028590s ]
+---------------------------------------------------------------
+[ 2019-03-15T16:57:28+08:00 ] 192.168.0.115 GET 0768.cc/admin/company/index.html
+[运行时间：0.033121s] [吞吐率：30.19req/s] [内存消耗：3,352.52kb] [文件加载：76]
+[ info ] [ LANG ] /www/wwwroot/0768.cc/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/0768.cc/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'skin=0; thinkphp_show_page_trace=0|0; Hm_lvt_3456bee468c83cc63fb5147f119f1075=1552549103; thinkphp_show_page_trace=0|0; PHPSESSID=609dj7po01ghcgfvm0q9cjg22u; skin=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://0768.cc/admin/company/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'keep-alive',
+  'host' => '0768.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/0768.cc/application/admin/view/company/index.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000745s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_field` [ RunTime:0.000762s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=1 ) ORDER BY `sort` [ RunTime:0.000541s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000507s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=2 ) ORDER BY `sort` [ RunTime:0.000575s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000486s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=3 ) ORDER BY `sort` [ RunTime:0.001290s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001661s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=4 ) ORDER BY `sort` [ RunTime:0.000617s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000744s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=5 ) ORDER BY `sort` [ RunTime:0.000521s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000339s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=6 ) ORDER BY `sort` [ RunTime:0.000513s ]
+---------------------------------------------------------------
+[ 2019-03-15T16:57:28+08:00 ] 192.168.0.115 POST 0768.cc/admin/company/index.html
+[运行时间：0.037237s] [吞吐率：26.86req/s] [内存消耗：3,507.76kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/0768.cc/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/0768.cc/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'skin=0; thinkphp_show_page_trace=0|0; Hm_lvt_3456bee468c83cc63fb5147f119f1075=1552549103; thinkphp_show_page_trace=0|0; PHPSESSID=609dj7po01ghcgfvm0q9cjg22u; skin=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://0768.cc/admin/company/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://0768.cc',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+  'host' => '0768.cc',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000610s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_field` [ RunTime:0.000673s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=1 ) ORDER BY `sort` [ RunTime:0.000573s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000281s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=2 ) ORDER BY `sort` [ RunTime:0.000513s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000474s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=3 ) ORDER BY `sort` [ RunTime:0.001333s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000309s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=4 ) ORDER BY `sort` [ RunTime:0.000932s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000971s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=5 ) ORDER BY `sort` [ RunTime:0.000789s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000514s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=6 ) ORDER BY `sort` [ RunTime:0.000510s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000455s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_company` [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `clt_company` LIMIT 1 [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_company` ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.000415s ]
+---------------------------------------------------------------
+[ 2019-03-15T16:57:31+08:00 ] 192.168.0.115 GET 0768.cc/admin/company/edit.html?id=17
+[运行时间：0.039823s] [吞吐率：25.11req/s] [内存消耗：3,353.90kb] [文件加载：73]
+[ info ] [ LANG ] /www/wwwroot/0768.cc/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/0768.cc/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'skin=0; thinkphp_show_page_trace=0|0; Hm_lvt_3456bee468c83cc63fb5147f119f1075=1552549103; thinkphp_show_page_trace=0|0; PHPSESSID=609dj7po01ghcgfvm0q9cjg22u; skin=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://0768.cc/admin/company/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '0768.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '17',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/0768.cc/application/admin/view/company/edit.html [ array (
+  0 => 'info',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000576s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_field` [ RunTime:0.000569s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=1 ) ORDER BY `sort` [ RunTime:0.000459s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000412s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=2 ) ORDER BY `sort` [ RunTime:0.000473s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000313s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=3 ) ORDER BY `sort` [ RunTime:0.000409s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000247s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=4 ) ORDER BY `sort` [ RunTime:0.007445s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000510s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=5 ) ORDER BY `sort` [ RunTime:0.000553s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000419s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=6 ) ORDER BY `sort` [ RunTime:0.000543s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000494s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_company` [ RunTime:0.000635s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_company` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000467s ]
+---------------------------------------------------------------
+[ 2019-03-15T16:58:02+08:00 ] 192.168.0.115 GET 0768.cc/admin/company/add.html
+[运行时间：0.046615s] [吞吐率：21.45req/s] [内存消耗：3,504.17kb] [文件加载：78]
+[ info ] [ LANG ] /www/wwwroot/0768.cc/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/0768.cc/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'skin=0; thinkphp_show_page_trace=0|0; Hm_lvt_3456bee468c83cc63fb5147f119f1075=1552549103; thinkphp_show_page_trace=0|0; PHPSESSID=609dj7po01ghcgfvm0q9cjg22u; skin=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://0768.cc/admin/company/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '0768.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/0768.cc/application/admin/view/company/form.html [ array (
+  0 => 'province',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000535s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_field` [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=1 ) ORDER BY `sort` [ RunTime:0.000427s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000372s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=2 ) ORDER BY `sort` [ RunTime:0.006533s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000578s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=3 ) ORDER BY `sort` [ RunTime:0.000582s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000472s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=4 ) ORDER BY `sort` [ RunTime:0.000562s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000661s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=5 ) ORDER BY `sort` [ RunTime:0.000570s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000432s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=6 ) ORDER BY `sort` [ RunTime:0.001373s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000548s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_province` [ RunTime:0.000560s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_province` [ RunTime:0.000428s ]
+[ error ] [8]未定义变量: title[/www/wwwroot/0768.cc/runtime/temp/2b4b4206b818cdaade354272f6de73e4.php:20]
+---------------------------------------------------------------
+[ 2019-03-15T16:58:05+08:00 ] 192.168.0.115 POST 0768.cc/admin/up_files/file.html
+[运行时间：0.028413s] [吞吐率：35.20req/s] [内存消耗：3,234.24kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/0768.cc/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/0768.cc/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_3456bee468c83cc63fb5147f119f1075=1552549103; thinkphp_show_page_trace=0|0; PHPSESSID=609dj7po01ghcgfvm0q9cjg22u; skin=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://0768.cc/admin/company/add.html',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryMMveA1cSBDdI4jlO',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://0768.cc',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '452',
+  'connection' => 'keep-alive',
+  'host' => '0768.cc',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000620s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_field` [ RunTime:0.000623s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=1 ) ORDER BY `sort` [ RunTime:0.000422s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000327s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=2 ) ORDER BY `sort` [ RunTime:0.000438s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000371s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=3 ) ORDER BY `sort` [ RunTime:0.000426s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000515s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=4 ) ORDER BY `sort` [ RunTime:0.000464s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000302s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=5 ) ORDER BY `sort` [ RunTime:0.000438s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000349s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=6 ) ORDER BY `sort` [ RunTime:0.000419s ]
+---------------------------------------------------------------
+[ 2019-03-15T17:00:19+08:00 ] 192.168.0.115 GET 0768.cc/admin/company/index.html
+[运行时间：0.060031s] [吞吐率：16.66req/s] [内存消耗：3,352.23kb] [文件加载：76]
+[ info ] [ LANG ] /www/wwwroot/0768.cc/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/0768.cc/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'skin=0; thinkphp_show_page_trace=0|0; Hm_lvt_3456bee468c83cc63fb5147f119f1075=1552549103; thinkphp_show_page_trace=0|0; PHPSESSID=609dj7po01ghcgfvm0q9cjg22u; skin=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://0768.cc/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '0768.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/0768.cc/application/admin/view/company/index.html [ array (
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000975s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_field` [ RunTime:0.000666s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=1 ) ORDER BY `sort` [ RunTime:0.000566s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000600s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=2 ) ORDER BY `sort` [ RunTime:0.000575s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000476s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=3 ) ORDER BY `sort` [ RunTime:0.000551s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010106s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=4 ) ORDER BY `sort` [ RunTime:0.006755s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000479s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=5 ) ORDER BY `sort` [ RunTime:0.007674s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000815s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=6 ) ORDER BY `sort` [ RunTime:0.000715s ]
+---------------------------------------------------------------
+[ 2019-03-15T17:00:20+08:00 ] 192.168.0.115 POST 0768.cc/admin/company/index.html
+[运行时间：0.039186s] [吞吐率：25.52req/s] [内存消耗：3,507.76kb] [文件加载：74]
+[ info ] [ LANG ] /www/wwwroot/0768.cc/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/0768.cc/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'skin=0; thinkphp_show_page_trace=0|0; Hm_lvt_3456bee468c83cc63fb5147f119f1075=1552549103; thinkphp_show_page_trace=0|0; PHPSESSID=609dj7po01ghcgfvm0q9cjg22u; skin=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://0768.cc/admin/company/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://0768.cc',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '15',
+  'connection' => 'keep-alive',
+  'host' => '0768.cc',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+  'limit' => '10',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000438s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_field` [ RunTime:0.000587s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=1 ) ORDER BY `sort` [ RunTime:0.000408s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000407s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=2 ) ORDER BY `sort` [ RunTime:0.001447s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001528s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=3 ) ORDER BY `sort` [ RunTime:0.001034s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000333s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=4 ) ORDER BY `sort` [ RunTime:0.000508s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000335s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=5 ) ORDER BY `sort` [ RunTime:0.000525s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000470s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=6 ) ORDER BY `sort` [ RunTime:0.000430s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000416s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_company` [ RunTime:0.000555s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `clt_company` LIMIT 1 [ RunTime:0.000308s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_company` ORDER BY `id` ASC LIMIT 0,10 [ RunTime:0.000399s ]
+---------------------------------------------------------------
+[ 2019-03-15T17:00:21+08:00 ] 192.168.0.115 GET 0768.cc/admin/company/edit.html?id=17
+[运行时间：0.050517s] [吞吐率：19.80req/s] [内存消耗：3,353.90kb] [文件加载：73]
+[ info ] [ LANG ] /www/wwwroot/0768.cc/thinkphp/lang/zh-cn.php
+[ info ] [ LANG ] /www/wwwroot/0768.cc/application/admin//lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'skin=0; thinkphp_show_page_trace=0|0; Hm_lvt_3456bee468c83cc63fb5147f119f1075=1552549103; thinkphp_show_page_trace=0|0; PHPSESSID=609dj7po01ghcgfvm0q9cjg22u; skin=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://0768.cc/admin/company/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '0768.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '17',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/0768.cc/application/admin/view/company/edit.html [ array (
+  0 => 'info',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001573s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_field` [ RunTime:0.014205s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=1 ) ORDER BY `sort` [ RunTime:0.000579s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000518s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=2 ) ORDER BY `sort` [ RunTime:0.000572s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000444s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=3 ) ORDER BY `sort` [ RunTime:0.000771s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000591s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=4 ) ORDER BY `sort` [ RunTime:0.000515s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000411s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=5 ) ORDER BY `sort` [ RunTime:0.000695s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000331s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SELECT * FROM `clt_field` WHERE  ( moduleid=6 ) ORDER BY `sort` [ RunTime:0.000484s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000432s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_company` [ RunTime:0.000553s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_company` WHERE  `id` = 17 LIMIT 1 [ RunTime:0.000424s ]
+---------------------------------------------------------------
+[ 2019-03-15T17:31:16+08:00 ] 192.168.0.115 GET 0768.cc/
+[运行时间：0.069200s] [吞吐率：14.45req/s] [内存消耗：2,730.57kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/0768.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'home/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_3456bee468c83cc63fb5147f119f1075=1552549103; thinkphp_show_page_trace=0|0; PHPSESSID=609dj7po01ghcgfvm0q9cjg22u; skin=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '0768.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/0768.cc/application/home/view/index_index.html [ array (
+  0 => 'company',
+  1 => 'province',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001505s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_province` [ RunTime:0.000798s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_province` [ RunTime:0.000312s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000442s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_company` [ RunTime:0.000635s ]
+[ sql ] [ SQL ] SELECT * FROM ( SELECT `a`.* FROM `clt_company` `a` ) a ORDER BY `price` DESC [ RunTime:0.008411s ]
+[ error ] [8]未定义变量: title[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:14]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:14]
+[ error ] [8]未定义变量: keywords[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:15]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:15]
+[ error ] [8]未定义变量: description[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:16]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:16]
+---------------------------------------------------------------
+[ 2019-03-15T17:31:16+08:00 ] 192.168.0.115 GET 0768.cc/static/home/images/bg-company-1.jpg
+[运行时间：0.046679s] [吞吐率：21.42req/s] [内存消耗：2,758.13kb] [文件加载：72]
+[ info ] [ LANG ] /www/wwwroot/0768.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_3456bee468c83cc63fb5147f119f1075=1552549103; thinkphp_show_page_trace=0|0; PHPSESSID=609dj7po01ghcgfvm0q9cjg22u; skin=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://0768.cc/static/home/css/app.css',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '0768.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/0768.cc/application/home/view/index_index.html [ array (
+  0 => 'company',
+  1 => 'province',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001175s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_province` [ RunTime:0.000743s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_province` [ RunTime:0.000468s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002119s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_company` [ RunTime:0.001686s ]
+[ sql ] [ SQL ] SELECT * FROM ( SELECT `a`.* FROM `clt_company` `a` ) a ORDER BY `price` DESC [ RunTime:0.000780s ]
+[ error ] [8]未定义变量: title[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:14]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:14]
+[ error ] [8]未定义变量: keywords[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:15]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:15]
+[ error ] [8]未定义变量: description[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:16]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:16]
+---------------------------------------------------------------
+[ 2019-03-15T17:31:28+08:00 ] 192.168.0.115 GET 0768.cc/?key=2011-03-22&order_type=4
+[运行时间：0.055728s] [吞吐率：17.94req/s] [内存消耗：2,729.53kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/0768.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'home/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_3456bee468c83cc63fb5147f119f1075=1552549103; thinkphp_show_page_trace=0|0; PHPSESSID=609dj7po01ghcgfvm0q9cjg22u; skin=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://0768.cc/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '0768.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'key' => '2011-03-22',
+  'order_type' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/0768.cc/application/home/view/index_index.html [ array (
+  0 => 'company',
+  1 => 'province',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000590s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_province` [ RunTime:0.000724s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_province` [ RunTime:0.000443s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000514s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_company` [ RunTime:0.024616s ]
+[ sql ] [ SQL ] SELECT * FROM ( SELECT `a`.* FROM `clt_company` `a` ) a WHERE  ( `a`.`name` LIKE '%2011-03-22%' OR `a`.`area` LIKE '%2011-03-22%' OR `a`.`do` LIKE '%2011-03-22%' OR `a`.`remark` LIKE '%2011-03-22%' OR `a`.`ctime` LIKE '%2011-03-22%' ) ORDER BY `price` DESC [ RunTime:0.001455s ]
+[ error ] [8]未定义变量: title[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:14]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:14]
+[ error ] [8]未定义变量: keywords[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:15]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:15]
+[ error ] [8]未定义变量: description[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:16]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:16]
+---------------------------------------------------------------
+[ 2019-03-15T17:31:28+08:00 ] 192.168.0.115 GET 0768.cc/static/home/images/bg-company-1.jpg
+[运行时间：0.036587s] [吞吐率：27.33req/s] [内存消耗：2,758.13kb] [文件加载：72]
+[ info ] [ LANG ] /www/wwwroot/0768.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_3456bee468c83cc63fb5147f119f1075=1552549103; thinkphp_show_page_trace=0|0; PHPSESSID=609dj7po01ghcgfvm0q9cjg22u; skin=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://0768.cc/static/home/css/app.css',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '0768.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/0768.cc/application/home/view/index_index.html [ array (
+  0 => 'company',
+  1 => 'province',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000787s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_province` [ RunTime:0.001094s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_province` [ RunTime:0.000371s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000529s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_company` [ RunTime:0.007407s ]
+[ sql ] [ SQL ] SELECT * FROM ( SELECT `a`.* FROM `clt_company` `a` ) a ORDER BY `price` DESC [ RunTime:0.000652s ]
+[ error ] [8]未定义变量: title[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:14]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:14]
+[ error ] [8]未定义变量: keywords[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:15]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:15]
+[ error ] [8]未定义变量: description[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:16]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:16]
+---------------------------------------------------------------
+[ 2019-03-15T17:31:42+08:00 ] 192.168.0.115 GET 0768.cc/?key=%E6%B2%B3%E5%8D%97&order_type=4
+[运行时间：0.045368s] [吞吐率：22.04req/s] [内存消耗：2,729.53kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/0768.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'home/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_3456bee468c83cc63fb5147f119f1075=1552549103; thinkphp_show_page_trace=0|0; PHPSESSID=609dj7po01ghcgfvm0q9cjg22u; skin=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://0768.cc/?key=2011-03-22&order_type=4',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '0768.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'key' => '河南',
+  'order_type' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/0768.cc/application/home/view/index_index.html [ array (
+  0 => 'company',
+  1 => 'province',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000866s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_province` [ RunTime:0.000740s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_province` [ RunTime:0.000441s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000536s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_company` [ RunTime:0.000755s ]
+[ sql ] [ SQL ] SELECT * FROM ( SELECT `a`.* FROM `clt_company` `a` ) a WHERE  ( `a`.`name` LIKE '%河南%' OR `a`.`area` LIKE '%河南%' OR `a`.`do` LIKE '%河南%' OR `a`.`remark` LIKE '%河南%' OR `a`.`ctime` LIKE '%河南%' ) ORDER BY `price` DESC [ RunTime:0.006596s ]
+[ error ] [8]未定义变量: title[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:14]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:14]
+[ error ] [8]未定义变量: keywords[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:15]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:15]
+[ error ] [8]未定义变量: description[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:16]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:16]
+---------------------------------------------------------------
+[ 2019-03-15T17:31:42+08:00 ] 192.168.0.115 GET 0768.cc/static/home/images/bg-company-1.jpg
+[运行时间：0.058208s] [吞吐率：17.18req/s] [内存消耗：2,758.13kb] [文件加载：72]
+[ info ] [ LANG ] /www/wwwroot/0768.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_3456bee468c83cc63fb5147f119f1075=1552549103; thinkphp_show_page_trace=0|0; PHPSESSID=609dj7po01ghcgfvm0q9cjg22u; skin=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://0768.cc/static/home/css/app.css',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '0768.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/0768.cc/application/home/view/index_index.html [ array (
+  0 => 'company',
+  1 => 'province',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000607s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_province` [ RunTime:0.000660s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_province` [ RunTime:0.000255s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008876s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_company` [ RunTime:0.006051s ]
+[ sql ] [ SQL ] SELECT * FROM ( SELECT `a`.* FROM `clt_company` `a` ) a ORDER BY `price` DESC [ RunTime:0.000624s ]
+[ error ] [8]未定义变量: title[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:14]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:14]
+[ error ] [8]未定义变量: keywords[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:15]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:15]
+[ error ] [8]未定义变量: description[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:16]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:16]
+---------------------------------------------------------------
+[ 2019-03-15T17:31:43+08:00 ] 192.168.0.115 GET 0768.cc/?key=%E6%B1%9F%E8%8B%8F&order_type=4
+[运行时间：0.044531s] [吞吐率：22.46req/s] [内存消耗：2,730.95kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/0768.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'home/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_3456bee468c83cc63fb5147f119f1075=1552549103; thinkphp_show_page_trace=0|0; PHPSESSID=609dj7po01ghcgfvm0q9cjg22u; skin=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://0768.cc/?key=%E6%B2%B3%E5%8D%97&order_type=4',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '0768.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'key' => '江苏',
+  'order_type' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/0768.cc/application/home/view/index_index.html [ array (
+  0 => 'company',
+  1 => 'province',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002651s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_province` [ RunTime:0.008081s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_province` [ RunTime:0.000591s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000630s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_company` [ RunTime:0.000684s ]
+[ sql ] [ SQL ] SELECT * FROM ( SELECT `a`.* FROM `clt_company` `a` ) a WHERE  ( `a`.`name` LIKE '%江苏%' OR `a`.`area` LIKE '%江苏%' OR `a`.`do` LIKE '%江苏%' OR `a`.`remark` LIKE '%江苏%' OR `a`.`ctime` LIKE '%江苏%' ) ORDER BY `price` DESC [ RunTime:0.000580s ]
+[ error ] [8]未定义变量: title[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:14]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:14]
+[ error ] [8]未定义变量: keywords[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:15]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:15]
+[ error ] [8]未定义变量: description[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:16]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:16]
+---------------------------------------------------------------
+[ 2019-03-15T17:31:43+08:00 ] 192.168.0.115 GET 0768.cc/static/home/images/bg-company-1.jpg
+[运行时间：0.051737s] [吞吐率：19.33req/s] [内存消耗：2,758.13kb] [文件加载：72]
+[ info ] [ LANG ] /www/wwwroot/0768.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_3456bee468c83cc63fb5147f119f1075=1552549103; thinkphp_show_page_trace=0|0; PHPSESSID=609dj7po01ghcgfvm0q9cjg22u; skin=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://0768.cc/static/home/css/app.css',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '0768.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/0768.cc/application/home/view/index_index.html [ array (
+  0 => 'company',
+  1 => 'province',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000557s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_province` [ RunTime:0.000728s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_province` [ RunTime:0.000394s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001253s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_company` [ RunTime:0.001456s ]
+[ sql ] [ SQL ] SELECT * FROM ( SELECT `a`.* FROM `clt_company` `a` ) a ORDER BY `price` DESC [ RunTime:0.003985s ]
+[ error ] [8]未定义变量: title[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:14]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:14]
+[ error ] [8]未定义变量: keywords[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:15]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:15]
+[ error ] [8]未定义变量: description[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:16]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:16]
+---------------------------------------------------------------
+[ 2019-03-15T17:31:45+08:00 ] 192.168.0.115 GET 0768.cc/
+[运行时间：0.041346s] [吞吐率：24.19req/s] [内存消耗：2,730.60kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/0768.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'home/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_3456bee468c83cc63fb5147f119f1075=1552549103; thinkphp_show_page_trace=0|0; PHPSESSID=609dj7po01ghcgfvm0q9cjg22u; skin=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://0768.cc/?key=%E6%B1%9F%E8%8B%8F&order_type=4',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '0768.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/0768.cc/application/home/view/index_index.html [ array (
+  0 => 'company',
+  1 => 'province',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000653s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_province` [ RunTime:0.005754s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_province` [ RunTime:0.000347s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000461s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_company` [ RunTime:0.000514s ]
+[ sql ] [ SQL ] SELECT * FROM ( SELECT `a`.* FROM `clt_company` `a` ) a ORDER BY `price` DESC [ RunTime:0.000570s ]
+[ error ] [8]未定义变量: title[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:14]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:14]
+[ error ] [8]未定义变量: keywords[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:15]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:15]
+[ error ] [8]未定义变量: description[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:16]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:16]
+---------------------------------------------------------------
+[ 2019-03-15T17:31:45+08:00 ] 192.168.0.115 GET 0768.cc/static/home/images/bg-company-1.jpg
+[运行时间：0.046161s] [吞吐率：21.66req/s] [内存消耗：2,758.13kb] [文件加载：72]
+[ info ] [ LANG ] /www/wwwroot/0768.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_3456bee468c83cc63fb5147f119f1075=1552549103; thinkphp_show_page_trace=0|0; PHPSESSID=609dj7po01ghcgfvm0q9cjg22u; skin=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://0768.cc/static/home/css/app.css',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '0768.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/0768.cc/application/home/view/index_index.html [ array (
+  0 => 'company',
+  1 => 'province',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002403s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_province` [ RunTime:0.001916s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_province` [ RunTime:0.002211s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000423s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_company` [ RunTime:0.003874s ]
+[ sql ] [ SQL ] SELECT * FROM ( SELECT `a`.* FROM `clt_company` `a` ) a ORDER BY `price` DESC [ RunTime:0.000666s ]
+[ error ] [8]未定义变量: title[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:14]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:14]
+[ error ] [8]未定义变量: keywords[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:15]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:15]
+[ error ] [8]未定义变量: description[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:16]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:16]
+---------------------------------------------------------------
+[ 2019-03-15T17:31:49+08:00 ] 192.168.0.115 GET 0768.cc/?key=%E5%A4%87%E6%B3%A812&order_type=4
+[运行时间：0.045989s] [吞吐率：21.74req/s] [内存消耗：2,730.97kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/0768.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'home/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_3456bee468c83cc63fb5147f119f1075=1552549103; thinkphp_show_page_trace=0|0; PHPSESSID=609dj7po01ghcgfvm0q9cjg22u; skin=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://0768.cc/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '0768.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'key' => '备注12',
+  'order_type' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/0768.cc/application/home/view/index_index.html [ array (
+  0 => 'company',
+  1 => 'province',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000773s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_province` [ RunTime:0.000750s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_province` [ RunTime:0.000437s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000542s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_company` [ RunTime:0.000875s ]
+[ sql ] [ SQL ] SELECT * FROM ( SELECT `a`.* FROM `clt_company` `a` ) a WHERE  ( `a`.`name` LIKE '%备注12%' OR `a`.`area` LIKE '%备注12%' OR `a`.`do` LIKE '%备注12%' OR `a`.`remark` LIKE '%备注12%' OR `a`.`ctime` LIKE '%备注12%' ) ORDER BY `price` DESC [ RunTime:0.015360s ]
+[ error ] [8]未定义变量: title[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:14]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:14]
+[ error ] [8]未定义变量: keywords[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:15]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:15]
+[ error ] [8]未定义变量: description[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:16]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:16]
+---------------------------------------------------------------
+[ 2019-03-15T17:31:49+08:00 ] 192.168.0.115 GET 0768.cc/static/home/images/bg-company-1.jpg
+[运行时间：0.042947s] [吞吐率：23.28req/s] [内存消耗：2,758.13kb] [文件加载：72]
+[ info ] [ LANG ] /www/wwwroot/0768.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_3456bee468c83cc63fb5147f119f1075=1552549103; thinkphp_show_page_trace=0|0; PHPSESSID=609dj7po01ghcgfvm0q9cjg22u; skin=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://0768.cc/static/home/css/app.css',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '0768.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/0768.cc/application/home/view/index_index.html [ array (
+  0 => 'company',
+  1 => 'province',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000500s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_province` [ RunTime:0.000656s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_province` [ RunTime:0.000270s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000424s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_company` [ RunTime:0.000547s ]
+[ sql ] [ SQL ] SELECT * FROM ( SELECT `a`.* FROM `clt_company` `a` ) a ORDER BY `price` DESC [ RunTime:0.000490s ]
+[ error ] [8]未定义变量: title[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:14]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:14]
+[ error ] [8]未定义变量: keywords[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:15]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:15]
+[ error ] [8]未定义变量: description[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:16]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:16]
+---------------------------------------------------------------
+[ 2019-03-15T17:31:51+08:00 ] 192.168.0.115 GET 0768.cc/home/index/detail?id=18
+[运行时间：1.370892s] [吞吐率：0.73req/s] [内存消耗：2,724.70kb] [文件加载：72]
+[ info ] [ LANG ] /www/wwwroot/0768.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '_uab_collina=155254910331861810053578; thinkphp_show_page_trace=0|0; Hm_lvt_3456bee468c83cc63fb5147f119f1075=1552549103; thinkphp_show_page_trace=0|0; PHPSESSID=609dj7po01ghcgfvm0q9cjg22u; skin=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://0768.cc/?key=%E5%A4%87%E6%B3%A812&order_type=4',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '0768.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'id' => '18',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/0768.cc/application/home/view/index_detail.html [ array (
+  0 => 'data',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000688s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_company` [ RunTime:0.000768s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_company` WHERE  `id` = 18 LIMIT 1 [ RunTime:0.000548s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000560s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] UPDATE `clt_company`  SET `fa_info` = '杨尚利' , `crad_no` = '91130684799565079P' , `has_price` = '300万元人民币' , `ctime` = '2007-03-16' , `htime` = '2016-09-26' , `area` = '河北省' , `djjg` = '高碑店市市场监督管理局' , `company_area` = '高碑店市五四路
+                 查看地图  附近公司' , `do` = '常压锅炉、锅炉辅机、水泥机械、风机生产销售。' , `num` = 12333 , `price` = 3343  WHERE  `id` = 18 [ RunTime:0.003894s ]
+[ error ] [8]未定义变量: title[/www/wwwroot/0768.cc/runtime/temp/dacca0655951174b081b19e9cee02a33.php:14]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/dacca0655951174b081b19e9cee02a33.php:14]
+[ error ] [8]未定义变量: keywords[/www/wwwroot/0768.cc/runtime/temp/dacca0655951174b081b19e9cee02a33.php:15]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/dacca0655951174b081b19e9cee02a33.php:15]
+[ error ] [8]未定义变量: description[/www/wwwroot/0768.cc/runtime/temp/dacca0655951174b081b19e9cee02a33.php:16]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/dacca0655951174b081b19e9cee02a33.php:16]
+---------------------------------------------------------------
+[ 2019-03-15T17:31:58+08:00 ] 192.168.0.115 GET 0768.cc/?key=%092007-03-16&order_type=4
+[运行时间：0.027656s] [吞吐率：36.16req/s] [内存消耗：2,729.59kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/0768.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'home/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_3456bee468c83cc63fb5147f119f1075=1552549103; thinkphp_show_page_trace=0|0; PHPSESSID=609dj7po01ghcgfvm0q9cjg22u; skin=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://0768.cc/?key=%E5%A4%87%E6%B3%A812&order_type=4',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '0768.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'key' => '	2007-03-16',
+  'order_type' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/0768.cc/application/home/view/index_index.html [ array (
+  0 => 'company',
+  1 => 'province',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000487s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_province` [ RunTime:0.000645s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_province` [ RunTime:0.000351s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000659s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_company` [ RunTime:0.000539s ]
+[ sql ] [ SQL ] SELECT * FROM ( SELECT `a`.* FROM `clt_company` `a` ) a WHERE  ( `a`.`name` LIKE '%	2007-03-16%' OR `a`.`area` LIKE '%	2007-03-16%' OR `a`.`do` LIKE '%	2007-03-16%' OR `a`.`remark` LIKE '%	2007-03-16%' OR `a`.`ctime` LIKE '%	2007-03-16%' ) ORDER BY `price` DESC [ RunTime:0.000601s ]
+[ error ] [8]未定义变量: title[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:14]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:14]
+[ error ] [8]未定义变量: keywords[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:15]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:15]
+[ error ] [8]未定义变量: description[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:16]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:16]
+---------------------------------------------------------------
+[ 2019-03-15T17:31:58+08:00 ] 192.168.0.115 GET 0768.cc/static/home/images/bg-company-1.jpg
+[运行时间：0.034954s] [吞吐率：28.61req/s] [内存消耗：2,758.98kb] [文件加载：72]
+[ info ] [ LANG ] /www/wwwroot/0768.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_3456bee468c83cc63fb5147f119f1075=1552549103; thinkphp_show_page_trace=0|0; PHPSESSID=609dj7po01ghcgfvm0q9cjg22u; skin=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://0768.cc/static/home/css/app.css',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '0768.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/0768.cc/application/home/view/index_index.html [ array (
+  0 => 'company',
+  1 => 'province',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000576s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_province` [ RunTime:0.001464s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_province` [ RunTime:0.001889s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000963s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_company` [ RunTime:0.001544s ]
+[ sql ] [ SQL ] SELECT * FROM ( SELECT `a`.* FROM `clt_company` `a` ) a ORDER BY `price` DESC [ RunTime:0.000532s ]
+[ error ] [8]未定义变量: title[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:14]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:14]
+[ error ] [8]未定义变量: keywords[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:15]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:15]
+[ error ] [8]未定义变量: description[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:16]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:16]
+---------------------------------------------------------------
+[ 2019-03-15T17:31:59+08:00 ] 192.168.0.115 GET 0768.cc/?key=%092007-03-16&order_type=4
+[运行时间：0.036714s] [吞吐率：27.24req/s] [内存消耗：2,729.59kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/0768.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'home/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_3456bee468c83cc63fb5147f119f1075=1552549103; thinkphp_show_page_trace=0|0; PHPSESSID=609dj7po01ghcgfvm0q9cjg22u; skin=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://0768.cc/?key=%092007-03-16&order_type=4',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '0768.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'key' => '	2007-03-16',
+  'order_type' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/0768.cc/application/home/view/index_index.html [ array (
+  0 => 'company',
+  1 => 'province',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000511s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_province` [ RunTime:0.000674s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_province` [ RunTime:0.000311s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000336s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_company` [ RunTime:0.011755s ]
+[ sql ] [ SQL ] SELECT * FROM ( SELECT `a`.* FROM `clt_company` `a` ) a WHERE  ( `a`.`name` LIKE '%	2007-03-16%' OR `a`.`area` LIKE '%	2007-03-16%' OR `a`.`do` LIKE '%	2007-03-16%' OR `a`.`remark` LIKE '%	2007-03-16%' OR `a`.`ctime` LIKE '%	2007-03-16%' ) ORDER BY `price` DESC [ RunTime:0.000548s ]
+[ error ] [8]未定义变量: title[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:14]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:14]
+[ error ] [8]未定义变量: keywords[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:15]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:15]
+[ error ] [8]未定义变量: description[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:16]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:16]
+---------------------------------------------------------------
+[ 2019-03-15T17:31:59+08:00 ] 192.168.0.115 GET 0768.cc/static/home/images/bg-company-1.jpg
+[运行时间：0.030914s] [吞吐率：32.35req/s] [内存消耗：2,758.98kb] [文件加载：72]
+[ info ] [ LANG ] /www/wwwroot/0768.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_3456bee468c83cc63fb5147f119f1075=1552549103; thinkphp_show_page_trace=0|0; PHPSESSID=609dj7po01ghcgfvm0q9cjg22u; skin=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://0768.cc/static/home/css/app.css',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '0768.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/0768.cc/application/home/view/index_index.html [ array (
+  0 => 'company',
+  1 => 'province',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000492s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_province` [ RunTime:0.001215s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_province` [ RunTime:0.000343s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000852s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_company` [ RunTime:0.000770s ]
+[ sql ] [ SQL ] SELECT * FROM ( SELECT `a`.* FROM `clt_company` `a` ) a ORDER BY `price` DESC [ RunTime:0.001398s ]
+[ error ] [8]未定义变量: title[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:14]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:14]
+[ error ] [8]未定义变量: keywords[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:15]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:15]
+[ error ] [8]未定义变量: description[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:16]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:16]
+---------------------------------------------------------------
+[ 2019-03-15T17:32:02+08:00 ] 192.168.0.115 GET 0768.cc/?key=2007-03-16&order_type=4
+[运行时间：0.474619s] [吞吐率：2.11req/s] [内存消耗：2,731.81kb] [文件加载：71]
+[ info ] [ LANG ] /www/wwwroot/0768.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+  'rule' => '',
+  'route' => 'home/index/index',
+  'option' => 
+  array (
+    'merge_rule_regex' => false,
+    'complete_match' => true,
+  ),
+  'var' => 
+  array (
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_3456bee468c83cc63fb5147f119f1075=1552549103; thinkphp_show_page_trace=0|0; PHPSESSID=609dj7po01ghcgfvm0q9cjg22u; skin=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://0768.cc/?key=%092007-03-16&order_type=4',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'keep-alive',
+  'host' => '0768.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+  'key' => '2007-03-16',
+  'order_type' => '4',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/0768.cc/application/home/view/index_index.html [ array (
+  0 => 'company',
+  1 => 'province',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000757s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_province` [ RunTime:0.002044s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_province` [ RunTime:0.000715s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000466s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_company` [ RunTime:0.005394s ]
+[ sql ] [ SQL ] SELECT * FROM ( SELECT `a`.* FROM `clt_company` `a` ) a WHERE  ( `a`.`name` LIKE '%2007-03-16%' OR `a`.`area` LIKE '%2007-03-16%' OR `a`.`do` LIKE '%2007-03-16%' OR `a`.`remark` LIKE '%2007-03-16%' OR `a`.`ctime` LIKE '%2007-03-16%' ) ORDER BY `price` DESC [ RunTime:0.000624s ]
+[ error ] [8]未定义变量: title[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:14]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:14]
+[ error ] [8]未定义变量: keywords[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:15]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:15]
+[ error ] [8]未定义变量: description[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:16]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:16]
+---------------------------------------------------------------
+[ 2019-03-15T17:32:02+08:00 ] 192.168.0.115 GET 0768.cc/static/home/images/bg-company-1.jpg
+[运行时间：0.035235s] [吞吐率：28.38req/s] [内存消耗：2,758.98kb] [文件加载：72]
+[ info ] [ LANG ] /www/wwwroot/0768.cc/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'Hm_lvt_3456bee468c83cc63fb5147f119f1075=1552549103; thinkphp_show_page_trace=0|0; PHPSESSID=609dj7po01ghcgfvm0q9cjg22u; skin=0',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://0768.cc/static/home/css/app.css',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.121 Safari/537.36',
+  'connection' => 'keep-alive',
+  'host' => '0768.cc',
+  'content-type' => '',
+  'content-length' => '',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /www/wwwroot/0768.cc/application/home/view/index_index.html [ array (
+  0 => 'company',
+  1 => 'province',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000850s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_province` [ RunTime:0.001090s ]
+[ sql ] [ SQL ] SELECT * FROM `clt_province` [ RunTime:0.000822s ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000504s ] mysql:host=127.0.0.1;port=3306;dbname=sql0768_cc;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `clt_company` [ RunTime:0.000585s ]
+[ sql ] [ SQL ] SELECT * FROM ( SELECT `a`.* FROM `clt_company` `a` ) a ORDER BY `price` DESC [ RunTime:0.000461s ]
+[ error ] [8]未定义变量: title[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:14]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:14]
+[ error ] [8]未定义变量: keywords[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:15]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:15]
+[ error ] [8]未定义变量: description[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:16]
+[ error ] [8]未定义变量: sys[/www/wwwroot/0768.cc/runtime/temp/8e7053bf14cfac2cf7d750b48281f415.php:16]
